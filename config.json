@@ -1,0 +1,1 @@
+{"authority":{"address":"8.8.8.8","type":"udp","port":"53"},"blacklist":[{"domain":"(.(.)|^)facebook((.).|$)"},{"domain":"(.(.)|^)reddit((.).|$)"},{"domain":"(.(.)|^)amazon((.).|$)"}]}

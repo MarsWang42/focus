@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<title >Focus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/custom.css">
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous" ></script>
+<nav class="navbar navbar-default" >
+  <div class="container-fluid" >
+    <div class="navbar-header" >
+        <a class="navbar-brand" href="#" >Focus</a>
+    </div>
+  </div>
+</nav>
+<body >
+    <div class="container-fluid" >
+        <div class="panel panel-default" >
+            <div class="panel-body" >
+                <div class="row" >
+                    <div class="col-sm-4" >
+                        <label >Proxy DNS:</label>
+                        <input type="text" id="authority-address" class="form-control" placeholder="Proxy DNS">
+                    </div>
+                    <div class="col-sm-4" >
+                        <label >Proxy Port:</label>
+                        <input type="text" id="authority-port" class="form-control" placeholder="Proxy DNS">
+                    </div>
+                    <div class="col-sm-4" >
+                        <label >Proxy Type:</label>
+                        <input type="text" id="authority-type" class="form-control" placeholder="Proxy DNS">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="panel panel-default" >
+            <div id="input_fields_wrap" class="panel-body" >
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-md-4 col-md-offset-2" >
+                <button id="add_field_button" class="btn btn-primary" >Get more imps</button>
+            </div>
+            <div class="col-md-4 col-md-offset-2" >
+                <button id="save_button" class="btn btn-success" >Kick them out</button>
+            </div>
+        </div>
+    </div>
+<script src="./assets/ui.js" >
+</script>
+</body>
+</html>
+
+
